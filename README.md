@@ -1,4 +1,3 @@
-purdue-directory
-================
+# purdue-directory
 
-A Java library for getting directory information from Purdue University
+A Java library for getting directory information from Purdue University.
