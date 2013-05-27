@@ -1,12 +1,12 @@
 # Java class files
 *.class
 
-# Package Files
+# Package files
 *.jar
 *.war
 *.ear
 
-# generated files
+# Generated files
 target/
 
 # Eclipse project files
