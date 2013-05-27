@@ -1,9 +1,19 @@
-.DS_Store
-
+# Java class files
 *.class
 
-# Package Files #
+# Package Files
 *.jar
 *.war
 *.ear
-/target
+
+# generated files
+target/
+
+# Eclipse project files
+.settings/
+.classpath
+.project
+
+# IntelliJ project files
+.idea/
+*.iml
