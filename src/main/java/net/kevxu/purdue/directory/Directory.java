@@ -22,7 +22,7 @@ public class Directory {
     public List<ResultEntry> search(Search search) throws LDAPSearchException {
         List<ResultEntry> results = new ArrayList<ResultEntry>();
 
-        Filter filter = search.createAndFilter();
+        Filter filter = search.allFilters();
         SearchRequest request = new SearchRequest(BASE_DN, SearchScope.SUB, filter, Attributes.ALL);
         SearchResult result = connection.search(request);
 

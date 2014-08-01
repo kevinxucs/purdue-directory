@@ -1,6 +1,7 @@
 package net.kevxu.purdue.directory;
 
 public enum Campus {
+
     WEST_LAFAYETTE("west lafayette"),
     CALUMET("calumet"),
     FORT_WAYNE("fort wayne"),
@@ -14,4 +15,5 @@ public enum Campus {
     String getName() {
         return name;
     }
+
 }

@@ -76,7 +76,7 @@ public class Search {
         return Filter.createSubstringFilter(attributeName, null, new String[] { value }, null);
     }
 
-    Filter createAndFilter() {
+    protected Filter allFilters() {
         List<Filter> filters = new ArrayList<Filter>();
         if (nameFilter != null) {
             filters.add(nameFilter);
