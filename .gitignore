@@ -8,6 +8,7 @@
 
 # Generated files
 target/
+dependency-reduced-pom.xml
 
 # Eclipse project files
 .settings/
