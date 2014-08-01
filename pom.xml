@@ -14,6 +14,7 @@
     <description>A Java library for getting directory information from Purdue University.</description>
 
     <properties>
+        <unboundid.version>2.3.6</unboundid.version>
         <maven.compiler.plugin.version>3.1</maven.compiler.plugin.version>
         <shade.version>2.3</shade.version>
         <java.source>1.8</java.source>
@@ -24,7 +25,7 @@
         <dependency>
             <groupId>com.unboundid</groupId>
             <artifactId>unboundid-ldapsdk</artifactId>
-            <version>2.3.3</version>
+            <version>${unboundid.version}</version>
         </dependency>
     </dependencies>
 
