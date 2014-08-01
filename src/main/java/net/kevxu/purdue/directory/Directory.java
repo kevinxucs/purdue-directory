@@ -37,10 +37,4 @@ public class Directory {
         connection.close();
     }
 
-    public static void main(String[] args) throws LDAPException {
-        Directory directory = new Directory();
-        Search search = new Search.Builder().name("kaiwen xu").build();
-        System.out.println(directory.search(search));
-    }
-
 }

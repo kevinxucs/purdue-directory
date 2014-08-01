@@ -1,5 +1,12 @@
 # purdue-directory
 
-A Java library for accessing directory system of Purdue University.
+A simple Java wrapper for accessing directory system of Purdue University.
 
-(Under development)
+It uses Purdue's Purdue Electronic Directory (PED) LDAP server: ped.purdue.edu.
+
+## Example
+
+	Directory directory = new Directory();
+	Search search = new Search.Builder().name("kaiwen").build();
+	List<ResultEntry> results = directory.search(search);
+	directory.close();
